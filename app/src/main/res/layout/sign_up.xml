@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <include layout="@layout/title"/>
+
+    <EditText
+        android:id="@+id/mail_signup_text"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:maxLines="2"
+        android:layout_weight="0.10"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dip"/>
+
+    <EditText
+        android:id="@+id/key_signup_text"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:hint="password (at least 6 digits)"
+        android:maxLines="2"
+        android:layout_weight="0.10"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"/>
+
+    <EditText
+        android:id="@+id/key_ensure_signup_text"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:hint="ensure password"
+        android:maxLines="2"
+        android:layout_weight="0.10"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"/>
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_button"
+        android:text="sign  up"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dip"/>
+
+</LinearLayout>
