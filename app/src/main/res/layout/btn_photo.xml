@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button2"
+        android:id="@+id/picBtn"
+        android:text="choose from the album"
+        android:textSize="16sp"
+        android:layout_above="@+id/photoBtn"
+        android:layout_alignLeft="@+id/photoBtn"
+        android:layout_alignStart="@+id/photoBtn" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/photoBtn"
+        android:background="@drawable/button1"
+        android:text="take a photo"
+        android:textSize="16sp"
+        android:layout_marginTop="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/cancelBtn" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/cancelBtn"
+        android:background="@drawable/button"
+        android:text="cancel"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+         />
+</RelativeLayout>

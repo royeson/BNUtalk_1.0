@@ -1,4 +1,4 @@
-package com.example.huangtianyous.hello;
+/*package com.example.huangtianyous.hello;
 
 import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
@@ -58,3 +58,4 @@ public class MainActivity extends Activity {
         msgList.add(msg2);
     }
 }
+*/

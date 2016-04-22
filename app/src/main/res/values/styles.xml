@@ -4,5 +4,9 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
+    <style name="takePhoto" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@animator/pop_in</item>
+        <item name="android:windowExitAnimation">@animator/pop_out</item>
+    </style>
 
 </resources>
